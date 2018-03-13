@@ -1,4 +1,4 @@
-package geo
+package iso
 
 
 func IsoAlpha2to3(Country string) string{
