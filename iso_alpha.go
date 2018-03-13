@@ -1,8 +1,9 @@
 package iso
 
+import "strings"
 
 func IsoAlpha2to3(Country string) string{
-	switch Country {
+	switch strings.ToUpper(Country) {
 	case "AF": return "AFG"
 	case "AL": return "ALB"
 	case "DZ": return "DZA"
@@ -252,7 +253,7 @@ func IsoAlpha2to3(Country string) string{
 
 
 func IsoAlpha3to2(Country string) string{
-	switch Country {
+	switch strings.ToUpper(Country) {
 	case "AFG": return "AF"
 	case "ALB": return "AL"
 	case "DZA": return "DZ"
