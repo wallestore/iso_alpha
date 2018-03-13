@@ -1,6 +1,6 @@
 # iso_alpha
 
-switch between iso_alpha_2 and iso_alpha_3
+switch between (ISO 3166-1) Alpha-2 code and Alpha-3 code
 
 
 
