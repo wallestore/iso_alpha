@@ -1,7 +1,7 @@
 package geo
 
 
-func IosAlpha2to3(Country string) string{
+func IsoAlpha2to3(Country string) string{
 	switch Country {
 	case "AF": return "AFG"
 	case "AL": return "ALB"
@@ -251,7 +251,7 @@ func IosAlpha2to3(Country string) string{
 }
 
 
-func IosAlpha3to2(Country string) string{
+func IsoAlpha3to2(Country string) string{
 	switch Country {
 	case "AFG": return "AF"
 	case "ALB": return "AL"
