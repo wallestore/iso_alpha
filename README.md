@@ -14,5 +14,5 @@ IosAlpha2to3("HK")->"HKG"
 ```
 
 ```
-IosAlpha2to3("HKG")->"HK"
+IosAlpha3to2("HKG")->"HK"
 ```
